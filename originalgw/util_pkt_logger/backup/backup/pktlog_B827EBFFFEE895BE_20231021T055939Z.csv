@@ -1,0 +1,2 @@
+"gateway ID","node MAC","UTC timestamp","us count","frequency","RF chain","RX chain","status","size","modulation","bandwidth","datarate","coderate","RSSI","SNR","payload"
+"B827EBFFFEE895BE","","2023-10-21 05:59:54.078Z",  17157315, 903900000,0, 0,"CRC_OK" ,  5,"LORA",125000,"SF7"   ,"4/5",-41, +7.5,"065BEA94-31"

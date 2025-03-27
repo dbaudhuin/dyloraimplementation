@@ -1,0 +1,1000 @@
+ 1043  ./util_pkt_logger 
+ 1044  rm pktlog_B827EBFFFEE895BE_20240226T000624Z.csv
+ 1045  ls
+ 1046  rm pktlog_B827EBFFFEE895BE_20240225T020155Z.csv
+ 1047  rm pktlog_B827EBFFFEE895BE_20231021T062010Z.csv
+ 1048  rm pktlog_B827EBFFFEE895BE_20231021T061244Z.csv
+ 1049  rm pktlog_B827EBFFFEE895BE_20231021T060559Z.csv
+ 1050  rm pktlog_B827EBFFFEE895BE_20231021T055939Z.csv
+ 1051  ls
+ 1052  cd luis/lora_gateway-master/util_p
+ 1053  cd luis/lora_gateway-master/util_pkt_logger/
+ 1054  ./util_pkt_logger 
+ 1055  cd luis/lora_gateway-master/util_pkt_logger/
+ 1056  ./util_pkt_logger 
+ 1057  exit
+ 1058  ls
+ 1059  cd luis
+ 1060  ls
+ 1061  cd lora_gateway-master/
+ 1062  LS
+ 1063  sudo raspi-config 
+ 1064  passwd
+ 1065  ls
+ 1066  cd aakash
+ 1067  ls
+ 1068  cd ..
+ 1069  ls
+ 1070  sudo useradd -m jps -G sudo
+ 1071  sudo passwd jps
+ 1072  su - jps
+ 1073  exit
+ 1074  ssh pi@192.168.1.192
+ 1075  cd luis/lora_gateway-master/util_pkt_logger/
+ 1076  ./util_pkt_logger 
+ 1077  sudo shutdown -h now
+ 1078  ls
+ 1079  cd luis/lora_gateway-master/util_pkt_logger/
+ 1080  ls
+ 1081  cat  pktlog_B827EBFFFEE895BE_20240303T093030Z.csv
+ 1082  ls
+ 1083  python3 log_cleaner.py 
+ 1084  python3 log_cleaner.py  pktlog_B827EBFFFEE895BE_20240303T093030Z.csv 12
+ 1085  python3 log_cleaner.py  pktlog_B827EBFFFEE895BE_20240303T093030Z.csv 904500000 4/5 12
+ 1086  python3 log_cleaner.py  pktlog_B827EBFFFEE895BE_20240303T093030Z.csv 904500000 7 12
+ 1087  python3 log_cleaner.py  pktlog_B827EBFFFEE895BE_20240303T093030Z.csv 904.5 7 12
+ 1088  vim log_cleaner.py 
+ 1089  vi log_cleaner.py 
+ 1090  cd luis/lora_gateway-master/util_pkt_logger/
+ 1091  ./util_pkt_logger 
+ 1092  ls
+ 1093  cd luis/
+ 1094  ls
+ 1095  cd lora_gateway-master/
+ 1096  ls
+ 1097  cd util_pkt_logger/
+ 1098  ls 
+ 1099  rm pktlog_B827EBFFFEE895BE_20240303T043025Z.csv
+ 1100  ls
+ 1101  rm pktlog_B827EBFFFEE895BE_20240303T063027Z.csv
+ 1102  rm  pktlog_B827EBFFFEE895BE_20240303T053026Z.csv
+ 1103  rm pktlog_B827EBFFFEE895BE_20240226T210515Z.csv
+ 1104  rm pktlog_B827EBFFFEE895BE_20240226T190513Z.csv
+ 1105  ls
+ 1106  rm  pktlog_B827EBFFFEE895BE_20240226T180512Z.csv
+ 1107  rm pktlog_B827EBFFFEE895BE_20240303T073028Z.csv
+ 1108  ls
+ 1109  rm  pktlog_B827EBFFFEE895BE_20240303T033024Z.csv
+ 1110  pktlog_B827EBFFFEE895BE_20231021T053802Z.csv        pktlog_B827EBFFFEE895BE_20240303T083029Z.csv
+ 1111  pktlog_B827EBFFFEE895BE_20240226T090039Z.csv        pktlog_B827EBFFFEE895BE_20240303T093030Z.csvrm 
+ 1112  rm pktlog_B827EBFFFEE895BE_20240303T093030Z.csv
+ 1113  rm pktlog_B827EBFFFEE895BE_20240301T205347Z.csv
+ 1114  rm pktlog_B827EBFFFEE895BE_20240226T090039Z.csv
+ 1115  ls
+ 1116  rm  pktlog_B827EBFFFEE895BE_20240226T120506Z.csv
+ 1117  rm pktlog_B827EBFFFEE895BE_20240227T010519Z.csv
+ 1118  rm pktlog_B827EBFFFEE895BE_20240227T030521Z.csv
+ 1119  rm pktlog_B827EBFFFEE895BE_20240227T041449Z.csv
+ 1120  rm pktlog_B827EBFFFEE895BE_20240303T023023Z.csv
+ 1121  rm pktlog_B827EBFFFEE895BE_20240303T083029Z.csv
+ 1122  ls
+ 1123  rm pktlog_B827EBFFFEE895BE_20240226T090503Z.csv
+ 1124  rm  pktlog_B827EBFFFEE895BE_20240227T020520Z.csv
+ 1125  rm pktlog_B827EBFFFEE895BE_20240303T013022Z.csv
+ 1126  rm  pktlog_B827EBFFFEE895BE_20240301T203942Z.csv
+ 1127  ls
+ 1128  rm pktlog_B827EBFFFEE895BE_20231021T053802Z.csv
+ 1129  rm  pktlog_B827EBFFFEE895BE_20240226T110505Z.csv
+ 1130  rm pktlog_B827EBFFFEE895BE_20240226T130507Z.csv
+ 1131  rm  pktlog_B827EBFFFEE895BE_20240226T160510Z.csv
+ 1132  rm rm pktlog_B827EBFFFEE895BE_20240226T220516Z.csv
+ 1133  rm pktlog_B827EBFFFEE895BE_20240226T220516Z.csv
+ 1134  rm  pktlog_B827EBFFFEE895BE_20240227T000518Z.csv
+ 1135  rm  pktlog_B827EBFFFEE895BE_20240227T040522Z.csv
+ 1136  ls
+ 1137  rm  pktlog_B827EBFFFEE895BE_20240226T140508Z.csv
+ 1138  rm pktlog_B827EBFFFEE895BE_20240226T150509Z.csv
+ 1139  rm pktlog_B827EBFFFEE895BE_20240226T170511Z.csv
+ 1140  rm pktlog_B827EBFFFEE895BE_20240226T200514Z.csv
+ 1141  ls
+ 1142  rm pktlog_B827EBFFFEE895BE_20240226T230517Z.csv
+ 1143  ls
+ 1144  cd src/
+ 1145  ls
+ 1146  vim util_pkt_logger.c 
+ 1147  vi util_pkt_logger.c 
+ 1148  exit
+ 1149  cd luis/lora_gateway-master/util_pkt_logger/
+ 1150  ls
+ 1151  vim src/util_pkt_logger.c 
+ 1152  vi src/util_pkt_logger.c 
+ 1153  make
+ 1154  cd ..
+ 1155  ls
+ 1156  ./util_pkt_logger/
+ 1157  ls
+ 1158  ./util_pkt_logger
+ 1159  cd util_pkt_logger/
+ 1160  ls
+ 1161  ./util_pkt_logger 
+ 1162  clear
+ 1163  ./util_pkt_logger 
+ 1164  ls
+ 1165  rm pktlog_B827EBFFFEE895BE_20240306T011925Z.csv
+ 1166  rm pktlog_B827EBFFFEE895BE_20240306T013536Z.csv
+ 1167  rm pktlog_B827EBFFFEE895BE_20240306T013856Z.csv
+ 1168  ls
+ 1169  vim src/util_pkt_logger.c 
+ 1170  vi src/util_pkt_logger.c 
+ 1171  make
+ 1172  ./util_pkt_logger 
+ 1173  ls
+ 1174  ./util_pkt_logger 
+ 1175  ls
+ 1176  cd luis/lora_gateway-master/util_pkt_logger/
+ 1177  ls
+ 1178  cd src/
+ 1179  ls
+ 1180  cat util_pkt_logger.c 
+ 1181  exit
+ 1182  ls
+ 1183  cd luis/lora_gateway-master/util_pkt_logger/
+ 1184  ls
+ 1185  cat log_cleaner.py 
+ 1186  exit
+ 1187  ls
+ 1188  la
+ 1189  ls
+ 1190  cd luis/
+ 1191  ls
+ 1192  cd lora_gateway-master/
+ 1193  cd util_pkt_logger/
+ 1194  ls
+ 1195  rm pktlog_B827EBFFFEE895BE_20240306T014823Z.csv
+ 1196  rm pktlog_B827EBFFFEE895BE_20240306T015950Z.csv
+ 1197  rm pktlog_B827EBFFFEE895BE_20240306T020339Z.csv
+ 1198  rm pktlog_B827EBFFFEE895BE_20240306T030340Z.csv
+ 1199  ls
+ 1200  rm pktlog_B827EBFFFEE895BE_20240306T040341Z.csv
+ 1201  rm pktlog_B827EBFFFEE895BE_20240306T050342Z.csv
+ 1202  rm pktlog_B827EBFFFEE895BE_20240306T060343Z.csv
+ 1203  rm pktlog_B827EBFFFEE895BE_20240306T070344Z.csv
+ 1204  ls
+ 1205  rm pktlog_B827EBFFFEE895BE_20240306T105346Z.csv
+ 1206  ls
+ 1207  cat src/util_pkt_logger.c 
+ 1208  clear
+ 1209  vi src/util_pkt_logger.c 
+ 1210  cat src/util_pkt_logger.c 
+ 1211  vi src/util_pkt_logger.c 
+ 1212  make
+ 1213  ./util_pkt_logger 
+ 1214  ls
+ 1215  cat pktlog_B827EBFFFEE895BE_20240306T151255Z.csv
+ 1216  cd luis/lora_gateway-master/util_pkt_logger/
+ 1217  ls
+ 1218  rm pktlog_B827EBFFFEE895BE_20240306T151255Z.csv
+ 1219  ./util_pkt_logger 
+ 1220  cat pktlog_B827EBFFFEE895BE_20240306T155004Z.csv
+ 1221  rm pktlog_B827EBFFFEE895BE_20240306T155004Z.csv
+ 1222  ls
+ 1223  ./util_pkt_logger 
+ 1224  cat pktlog_B827EBFFFEE895BE_20240306T160122Z.csv
+ 1225  clear
+ 1226  exit
+ 1227  ls
+ 1228  cd luis/lora_gateway-master/util_pkt_logger/
+ 1229  ./util_pkt_logger 
+ 1230  cd luis/lora_gateway-master/
+ 1231  ls
+ 1232  cd util_pkt_logger/
+ 1233  ./util_pkt_logger 
+ 1234  vi src/util_pkt_logger.c 
+ 1235  exit
+ 1236  ls
+ 1237  cd luis/lora_gateway-master/util_pkt_logger/
+ 1238  ls
+ 1239  vim src/util_pkt_logger.c 
+ 1240  vi src/util_pkt_logger.c 
+ 1241  ./util_pkt_logger 
+ 1242  cat pktlog_B827EBFFFEE895BE_20240307T005013Z.csv
+ 1243  make
+ 1244  ./util_pkt_logger 
+ 1245  cat  pktlog_B827EBFFFEE895BE_20240307T005341Z.csv
+ 1246  clear
+ 1247  ./util_pkt_logger 
+ 1248  mv pktlog_B827EBFFFEE895BE_20240307T005441Z.csv sample.csv
+ 1249  ls
+ 1250  cat sample.csv 
+ 1251  cd luis/lora_gateway-master/util_pkt_logger/
+ 1252  ./util_pkt_logger 
+ 1253  rm pktlog_B827EBFFFEE895BE_20240307T153418Z.csv
+ 1254  ./util_pkt_logger 
+ 1255  rm pktlog_B827EBFFFEE895BE_20240307T153709Z.csv
+ 1256  cd luis/lora_gateway-master/util_pkt_logger/
+ 1257  ls
+ 1258  ./util_pkt_logger 
+ 1259  rm  pktlog_B827EBFFFEE895BE_20240307T162645Z.csv
+ 1260  ls
+ 1261  rm pktlog_B827EBFFFEE895BE_20240306T160122Z.csv
+ 1262  rm  pktlog_B827EBFFFEE895BE_20240306T190117Z.csv
+ 1263  rm pktlog_B827EBFFFEE895BE_20240307T005013Z.csv
+ 1264  rm  pktlog_B827EBFFFEE895BE_20240306T190117Z.csv
+ 1265  rm  pktlog_B827EBFFFEE895BE_20240307T160051Z.csv
+ 1266  ls
+ 1267  rm pktlog_B827EBFFFEE895BE_20240306T192437Z.csv
+ 1268  rm pktlog_B827EBFFFEE895BE_20240307T005341Z.csv
+ 1269  rm  pktlog_B827EBFFFEE895BE_20240307T155855Z.csv
+ 1270  ls
+ 1271  ./util_pkt_logger 
+ 1272  rm pktlog_B827EBFFFEE895BE_20240307T163039Z.csv
+ 1273  ls
+ 1274  cd luis/lora_gateway-master/util_pkt_logger/
+ 1275  ./util_pkt_logger 
+ 1276  rm pktlog_B827EBFFFEE895BE_20240307T180020Z.csv
+ 1277  exit
+ 1278  cd luis/lora_gateway-master/util_pkt_logger/
+ 1279  ls
+ 1280  rm pktlog_B827EBFFFEE895BE_20240308T023950Z.csv
+ 1281  rm pktlog_B827EBFFFEE895BE_20240308T024253Z.csv
+ 1282  rm pktlog_B827EBFFFEE895BE_20240308T024722Z.csv 
+ 1283  rm pktlog_B827EBFFFEE895BE_20240308T025311Z.csv 
+ 1284  ls
+ 1285  ./util_pkt_logger 
+ 1286  htop
+ 1287  cd luis/lora_gateway-master/
+ 1288  cd util_pkt_logger/
+ 1289  ls
+ 1290  cat pktlog_B827EBFFFEE895BE_20240308T124619Z.csv
+ 1291  ls
+ 1292  mv pktlog_B827EBFFFEE895BE_20240308T124619Z.csv exp_run.csv
+ 1293  cd luis/lora_gateway-master/util_pkt_logger/
+ 1294  ls
+ 1295  cat exp_run.csv 
+ 1296  cat luis/lora_gateway-master/util_pkt_logger/exp_run.csv 
+ 1297  cd luis/lora_gateway-master/util_pkt_logger/
+ 1298  ./util_pkt_logger 
+ 1299  exit
+ 1300  cd luis/lora_gateway-master/util_pkt_logger/
+ 1301  ./util_pkt_logger 
+ 1302  cat pktlog_B827EBFFFEE895BE_20240313T000452Z.csv 
+ 1303  ./util_pkt_logger 
+ 1304  cat src/util_pkt_logger.c 
+ 1305  cat sample.csv 
+ 1306  cat src/util_pkt_logger.c 
+ 1307  cat sample.csv 
+ 1308  ls
+ 1309  cat pktlog_B827EBFFFEE895BE_20240313T001839Z.csv
+ 1310  ./util_pkt_logger 
+ 1311  ls
+ 1312  rm  pktlog_B827EBFFFEE895BE_20240313T001839Z.csv
+ 1313  rm pktlog_B827EBFFFEE895BE_20240313T000452Z.csv
+ 1314  ls
+ 1315  rm  pktlog_B827EBFFFEE895BE_20240308T114618Z.csv
+ 1316  rm pktlog_B827EBFFFEE895BE_20240312T235831Z.csv
+ 1317  rm  pktlog_B827EBFFFEE895BE_20240313T003439Z.csv
+ 1318  ls
+ 1319  ./util_pkt_logger 
+ 1320  htop
+ 1321  cd luis/lora_gateway-master/util_pkt_logger/
+ 1322  ./util_pkt_logger 
+ 1323  sudo shutdown -h now
+ 1324  cd luis/lora_gateway-master/util_pkt_logger/
+ 1325  cat overnight.csv 
+ 1326  cd luis/lora_gateway-master/util_pkt_logger/
+ 1327  vim src/util_pkt_logger.c 
+ 1328  vi src/util_pkt_logger.c 
+ 1329  cd luis/lora_gateway-master/util_pkt_logger/
+ 1330  ./util_pkt_logger 
+ 1331  rm pktlog_B827EBFFFEE895BE_20240316T134716Z.csv 
+ 1332  ls
+ 1333  ./util_pkt_logger 
+ 1334  ls
+ 1335  rm -r  pktlog_B827EBFFFEE895BE_20240316T135109Z.csv
+ 1336  ./util_pkt_logger 
+ 1337  ls
+ 1338  cat  pktlog_B827EBFFFEE895BE_20240315T130829Z.csv
+ 1339  vi src/util_pkt_logger.c 
+ 1340  ./util_pkt_logger 
+ 1341  make111
+ 1342  ./util_pkt_logger 
+ 1343  htop
+ 1344  cd luis/lora_gateway-master/util_pkt_logger/
+ 1345  ls
+ 1346  cd  pktlog_B827EBFFFEE895BE_20240316T171213Z.csv
+ 1347  cat  pktlog_B827EBFFFEE895BE_20240316T171213Z.csv
+ 1348  clear
+ 1349  ./util_pkt_logger 
+ 1350  cd luis/lora_gateway-master/util_pkt_logger/
+ 1351  ls
+ 1352  cat pktlog_B827EBFFFEE895BE_20240316T233327Z.csv
+ 1353  sudo shutdown -h now
+ 1354  cd luis/lora_gateway-master/
+ 1355  cd util_pkt_logger/
+ 1356  ls
+ 1357  rm pktlog_B827EBFFFEE895BE_20240313T003856Z.csv 
+ 1358  rm pktlog_B827EBFFFEE895BE_20240313T004948Z.csv 
+ 1359  rm pktlog_B827EBFFFEE895BE_20240313T014013Z.csv 
+ 1360  rm pktlog_B827EBFFFEE895BE_20240313T01
+ 1361  ls
+ 1362  rm pktlog_B827EBFFFEE895BE_20240313T010400Z.csv 
+ 1363  rm pktlog_B827EBFFFEE895BE_20240313T014923Z.csv 
+ 1364  ls
+ 1365  clear
+ 1366  ./util_pkt_logger 
+ 1367  mv pktlog_B827EBFFFEE895BE_20240313T075609Z.csv overnight.csv
+ 1368  ls
+ 1369  cat overnight.csv 
+ 1370  cat pktlog_B827EBFFFEE895BE_20240313T065608Z.csv 
+ 1371  ls
+ 1372  cat pktlog_B827EBFFFEE895BE_20240313T055607Z.csv 
+ 1373  cat overnight.csv 
+ 1374  ls
+ 1375  cat pktlog_B827EBFFFEE895BE_20240313T015603Z.csv 
+ 1376  rm overnight.csv 
+ 1377  mv pktlog_B827EBFFFEE895BE_20240313T015603Z.csv overnight.csv
+ 1378  cat overnight.csv 
+ 1379  ls
+ 1380  cat pktlog_B827EBFFFEE895BE_20240313T025604Z.csv 
+ 1381  ls
+ 1382  cat pktlog_B827EBFFFEE895BE_20240313T035605Z.csv 
+ 1383  ls
+ 1384  cat pktlog_B827EBFFFEE895BE_20240313T045606Z.csv 
+ 1385  cat pktlog_B827EBFFFEE895BE_20240313T055607Z.csv 
+ 1386  ls
+ 1387  cat pktlog_B827EBFFFEE895BE_20240313T065608Z.csv 
+ 1388  cat overnight.csv 
+ 1389  ./util_pkt_logger 
+ 1390  ls
+ 1391  cat pktlog_B827EBFFFEE895BE_20240314T144746Z.csv 
+ 1392  mv pktlog_B827EBFFFEE895BE_20240314T144746Z.csv DER_01.csv 
+ 1393  ls
+ 1394  ./util_pkt_logger 
+ 1395  cat pktlog_B827EBFFFEE895BE_20240315T130829Z.csv 
+ 1396  .01.
+ 1397  ./util_pkt_logger 
+ 1398  htop
+ 1399  cd luis/lora_gateway-master/util_pkt_logger/
+ 1400  ls
+ 1401  cat pktlog_B827EBFFFEE895BE_20240318T001924Z.csv
+ 1402  sudo shutdown -h now
+ 1403  ls
+ 1404  cd luis/
+ 1405  ls
+ 1406  cd lora_gateway-master/
+ 1407  ls
+ 1408  cd util_pkt_logger/
+ 1409  ls
+ 1410  mv *.csv ./old_csv/
+ 1411  ./util_pkt_logger 
+ 1412  sudo shutdown now -h
+ 1413  cd luis/
+ 1414  cd lora_gateway-master/util_pkt_logger/
+ 1415  ./util_pkt_logger 
+ 1416  shutdown -h now
+ 1417  sudo shutdown -h now
+ 1418  ls
+ 1419  cd luis
+ 1420  ls
+ 1421  cd lora_gateway-master/
+ 1422  ls
+ 1423  cd util_pkt_logger/
+ 1424  ls
+ 1425  python -v
+ 1426  python -V
+ 1427  py
+ 1428  python3 -V
+ 1429  tail -h
+ 1430  ls
+ 1431  tail +1f pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1432  nano tail_tracker.py
+ 1433  where python3
+ 1434  whereis python3
+ 1435  nano tail_tracker.py
+ 1436  chmod +x tail_tracker.py 
+ 1437  ./tail_tracker.py 
+ 1438  nano tail_tracker.py
+ 1439  ./tail_tracker.py 
+ 1440  nano tail_tracker.py
+ 1441  ./tail_tracker.py 
+ 1442  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1443  nano tail_tracker.py
+ 1444  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1445  nano tail_tracker.py
+ 1446  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1447  nano tail_tracker.py
+ 1448  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1449  nano tail_tracker.py
+ 1450  tail +1f pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1451  nano tail_tracker.py
+ 1452  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1453  nano tail_tracker.py
+ 1454  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1455  nano tail_tracker.py
+ 1456  python3
+ 1457  nano tail_tracker.py
+ 1458  python3
+ 1459  nano tail_tracker.py
+ 1460  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1461  nano tail_tracker.py
+ 1462  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1463  nano tail_tracker.py
+ 1464  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1465  nano tail_tracker.py
+ 1466  python
+ 1467  nano tail_tracker.py
+ 1468  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1469  nano tail_tracker.py
+ 1470  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1471  nano tail_tracker.py
+ 1472  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1473  nano tail_tracker.py
+ 1474  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1475  nano tail_tracker.py
+ 1476  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1477  nano tail_tracker.py
+ 1478  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1479  nano tail_tracker.py
+ 1480  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1481  nano tail_tracker.py
+ 1482  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1483  ls
+ 1484  cd luis
+ 1485  ls
+ 1486  cd lora_gateway-master/
+ 1487  ls
+ 1488  cd util_pkt_logger/
+ 1489  ls
+ 1490  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1491  systemctl
+ 1492  top
+ 1493  kill 11485
+ 1494  nano tail_tracker.py 
+ 1495  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1496  nano tail_tracker.py 
+ 1497  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1498  nano tail_tracker.py 
+ 1499  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1500  nano tail_tracker.py 
+ 1501  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1502  nano tail_tracker.py 
+ 1503  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1504  nano tail_tracker.py 
+ 1505  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1506  python
+ 1507  pip
+ 1508  python3 -m pip
+ 1509  python3 -m requests
+ 1510  python3
+ 1511  exit
+ 1512  jobs
+ 1513  job2
+ 1514  fg %1
+ 1515  jobs
+ 1516  fg %2
+ 1517  jobs
+ 1518  exit
+ 1519  cd luis/lora_gateway-master/util_pkt_logger/
+ 1520  ls
+ 1521  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1522  exit
+ 1523  ls
+ 1524  curl -s https://pitunnel.com/get/E2vesXhPmw | sudo bash
+ 1525  htop
+ 1526  exit
+ 1527  cd luis/lora_gateway-master/util_pkt_logger/
+ 1528  ls
+ 1529  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1530  python tail_tracker.py
+ 1531  nano tail_tracker.py
+ 1532  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1533  nano tail_tracker.py
+ 1534  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1535  nano tail_tracker.py
+ 1536  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1537  nano tail_tracker.py
+ 1538  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1539  nano tail_tracker.py
+ 1540  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1541  nano tail_tracker.py
+ 1542  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1543  nano tail_tracker.py
+ 1544  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1545  nano tail_tracker.py
+ 1546  ./tail_tracker.py pktlog_B827EBFFFEE895BE_20240326T143739Z.csv 
+ 1547  ping 1.1.1.1
+ 1548  ping google.com
+ 1549  wget
+ 1550  wget -O - https://waiting.camora.dev
+ 1551  wget -O - https://git.camora.dev
+ 1552  nano tail_tracker.py 
+ 1553  ./tail_tracker.py
+ 1554  nano tail_tracker.py 
+ 1555  ./tail_tracker.py
+ 1556  nano tail_tracker.py 
+ 1557  ./tail_tracker.py
+ 1558  nano tail_tracker.py 
+ 1559  ./tail_tracker.py
+ 1560  nano tail_tracker.py 
+ 1561  ./tail_tracker.py
+ 1562  nano tail_tracker.py 
+ 1563  ./tail_tracker.py
+ 1564  nano tail_tracker.py 
+ 1565  ./tail_tracker.py
+ 1566  nano tail_tracker.py 
+ 1567  ./tail_tracker.py
+ 1568  nano tail_tracker.py 
+ 1569  ./tail_tracker.py
+ 1570  nano tail_tracker.py 
+ 1571  cd /etc/systemd/system/
+ 1572  ls
+ 1573  nano pkt-logger.service
+ 1574  sudo nano pkt-logger.service
+ 1575  cd ~
+ 1576  pwd
+ 1577  nano /etc/systemd/system/pkt-logger.service 
+ 1578  sudo nano /etc/systemd/system/pkt-logger.service 
+ 1579  top
+ 1580  sudo nano /etc/systemd/system/pkt-logger.service 
+ 1581  systemctl cat pkt-logger.service
+ 1582  systemctl stop pkt-logger.service
+ 1583  sudo systemctl stop pkt-logger.service
+ 1584  sudo systemctl start pkt-logger.service
+ 1585  sudo systemctl status pkt-logger.service
+ 1586  cd luis/lora_gateway-master/util_pkt_logger/
+ 1587  ./tail_tracker.py 
+ 1588  nano ./tail_tracker.py 
+ 1589  top
+ 1590  kill 24421
+ 1591  nano ./tail_tracker.py 
+ 1592  top
+ 1593  kill 29243
+ 1594  ls
+ 1595  cat global_conf.json 
+ 1596  cat local_conf.json 
+ 1597  traceroute google.com
+ 1598  exit
+ 1599  cd luis/lora_gateway-master/util_pkt_logger/
+ 1600  ls
+ 1601  cat pktlog_B827EBFFFEE895BE_20240422T061702Z.csv 
+ 1602  sudo systemctl logger-tracker
+ 1603  sudo systemctl 
+ 1604  sudo systemctl | grep pkt
+ 1605  sudo systemctl stop pkt-logger
+ 1606  sudo systemctl 
+ 1607  sudo systemctl | grep tracker
+ 1608  sudo systemctl stop tail-tracker
+ 1609  sudo systemctl cat tail-tracker
+ 1610  sudo systemctl status tail-tracker
+ 1611  history | grep tail_tracker
+ 1612  history | grep tail-tracker
+ 1613  sudo history | grep tail-tracker
+ 1614  journalctl -f -u tail-tracker
+ 1615  sudo systemctl restart tail-tracker
+ 1616  journalctl -f -u pkt-logger
+ 1617  journalctl -f -u tail-tracker
+ 1618  journalctl -u tail-tracker
+ 1619  journalctl -u tail-tracker | tail 100
+ 1620  journalctl -u tail-tracker | tail -n 100
+ 1621  journalctl -f -u tail-tracker
+ 1622  sudo systemctl -f -u tick-track
+ 1623  sudo journalctl -f -u tick-tracker
+ 1624  sudo journalctl -u tick-tracker | less -n 100
+ 1625  sudo journalctl -u tick-tracker | tail -n 100
+ 1626  sudo journalctl -u tick-tracker
+ 1627  history
+ 1628  sudo journalctl -u tail-tracker
+ 1629  sudo journalctl -f -u tail-tracker
+ 1630  sudo journalctl -u tail-tracker | tail -n 100
+ 1631  sudo journalctl -f -u tail-tracker
+ 1632  sudo journalctl -u tail-tracker | tail -n 100
+ 1633  sudo raspi-config
+ 1634  sudo wiconfig
+ 1635  sudo iwconfig
+ 1636  sudo journalctl -u tail-tracker | tail -n 100
+ 1637  sudo systemctl tail-tracker
+ 1638  sudo systemctl status tail-tracker
+ 1639  sudo systemctl status pkt-logger
+ 1640  sudo journalctl -u pkt-logger | tail -n 100
+ 1641  sudo journalctl -u pkt-logger | tail -n 500
+ 1642  sudo journalctl -u pkt-logger | grep node
+ 1643  sudo journalctl -u pkt-logger | grep ID
+ 1644  sudo journalctl -u pkt-logger | more
+ 1645  ls
+ 1646  cd luis
+ 1647  ls
+ 1648  cd lora_gateway-master/
+ 1649  ls
+ 1650  cd util_pkt_logger/
+ 1651  ls
+ 1652  ls -la
+ 1653  tail -f pktlog_B827EBFFFEE895BE_20240427T005433Z.csv
+ 1654  ls -la
+ 1655  ls -lat
+ 1656  ls -t
+ 1657  tail -f pktlog_B827EBFFFEE895BE_20240427T005415Z.csv
+ 1658  journalctl -f -u pkt-logger
+ 1659  journalctl -f -u tail-tracker
+ 1660  nano tail_tracker.py 
+ 1661  sudo systemctl restart tail-tracker
+ 1662  journalctl -f -u tail-tracker
+ 1663  exit
+ 1664  journalctl -f -u tail-tracker
+ 1665  nano /etc/systemd/system/pkt-logger.service 
+ 1666  journalctl -f -u tail-tracker
+ 1667  exit
+ 1668  journalctl -f -u tail-tracker
+ 1669  exit
+ 1670  journalctl -f -u tail-tracker
+ 1671  LS
+ 1672  ls
+ 1673  cd luis/
+ 1674  ls
+ 1675  cd lora_gateway-master/util_pkt_logger/
+ 1676  ls
+ 1677  cat OUTPUT 
+ 1678  ls
+ 1679  cd old_csv/
+ 1680  ls
+ 1681  cd ..
+ 1682  ls
+ 1683  cd oldLog/
+ 1684  ls
+ 1685  cd ..
+ 1686  ls
+ 1687  cat readme.md 
+ 1688  clear
+ 1689  ls
+ 1690  cat pktlog_B827EBFFFEE895BE_20240506T041524Z.csv 
+ 1691  cat pktlog_B827EBFFFEE895BE_20240503T181742Z.csv 
+ 1692  cat pktlog_B827EBFFFEE895BE_20240427T031722Z.csv 
+ 1693  cat pktlog_B827EBFFFEE895BE_20240427T031721Z.csv 
+ 1694  ls
+ 1695  mkdir prelim
+ 1696  ls
+ 1697  mv *.csv prelim/
+ 1698  ls
+ 1699  cd prelim/
+ 1700  ls
+ 1701  sudo shutdown -h now
+ 1702  journalctl -f -u tail-tracker
+ 1703  who
+ 1704  cd luis/lora_gateway-master/util_pkt_logger/
+ 1705  ls
+ 1706  journalctl -f -u tail-tracker
+ 1707  htop
+ 1708  journalctl -f -u tail-tracker
+ 1709  sudo systemctl status tail-tracker.service 
+ 1710  sudo systemctl reboot tail-tracker.service 
+ 1711  journalctl -f -u tail-tracker
+ 1712  htop
+ 1713  journalctl -f -u tail-tracker
+ 1714  journalctl -u tail-tracker | more
+ 1715  ping google.com
+ 1716  ping cloudflare.com
+ 1717  ping api.telegram.org
+ 1718  sudo su
+ 1719  journalctl -u tail-tracker | more
+ 1720  journalctl -f -u tail-tracker
+ 1721  journalctl -u tail-tracker | more
+ 1722  journalctl -f -u tail-tracker
+ 1723  ls
+ 1724  systemctl status tail-tracker
+ 1725  cd luis/lora_gateway-master/util_pkt_logger/
+ 1726  ls
+ 1727  ls -lah
+ 1728  ls -laht
+ 1729  cd ..
+ 1730  ls -laht
+ 1731  ls fpgs
+ 1732  ls fpga
+ 1733  cd ..
+ 1734  ls -laht
+ 1735  cd ..
+ 1736  ls -laht
+ 1737  nano .bashrc
+ 1738  ls .dotnet
+ 1739  ls .dotnet/corefx/
+ 1740  ls .dotnet/corefx/cryptography/
+ 1741  ls .dotnet/corefx/cryptography/crls/
+ 1742  journalctl -f -u tail-tracker
+ 1743  ls
+ 1744  cd aakash
+ 1745  ls
+ 1746  cd lora_gateway-master/
+ 1747  ls
+ 1748  cd util_pkt_logger/
+ 1749  ls
+ 1750  cat pktlog_B827EBFFFEE895BE_20240225T102907Z.csv 
+ 1751  clear
+ 1752  ls
+ 1753  cd luis
+ 1754  ls
+ 1755  cd ..\aakash
+ 1756  cd ../aakash
+ 1757  ls
+ 1758  cd ../luis
+ 1759  ls
+ 1760  cd lora_gateway-master/
+ 1761  ls
+ 1762  cd util_pkt_logger
+ 1763  ls
+ 1764  cat pktlog_B827EBFFFEE895BE_20240514T134050Z.csv 
+ 1765  journalctl -f -u tail-tracker
+ 1766  exit
+ 1767  journalctl -f -u tail-tracker
+ 1768  exit
+ 1769  journalctl -f -u tail-tracker
+ 1770  htop
+ 1771  ls
+ 1772  cd luis/lora_gateway-master/
+ 1773  ls
+ 1774  cd util_pkt_logger/
+ 1775  ls
+ 1776  cat pktlog_B827EBFFFEE895BE_20240620T075008Z.csv 
+ 1777  clear
+ 1778  journalctl -f -u tail-tracker
+ 1779  systemctl status tail-tracker.service 
+ 1780  systemctl restart tail-tracker.service 
+ 1781  sudo systemctl restart tail-tracker.service 
+ 1782  journalctl -f -u tail-tracker
+ 1783  exit
+ 1784  ls
+ 1785  cd aakash/
+ 1786  ls
+ 1787  cd lora_gateway-master/
+ 1788  l
+ 1789  ls
+ 1790  cd util_pkt_logger/
+ 1791  ls
+ 1792  ls -la
+ 1793  ls -la backup
+ 1794  du -a . | sort -n -r | head -n 20
+ 1795  du -a -s . | sort -n -r | head -n 20
+ 1796  du -a .
+ 1797  ls -la
+ 1798  du -sh .
+ 1799  du -ah .
+ 1800  systemctl status tail-tracker
+ 1801  cd ~/luis/lora_gateway-master/util_pkt_logger/
+ 1802  du -ah .
+ 1803  du -a -s . | sort -n -r | head -n 20
+ 1804  du -a . | sort -n -r | head -n 20
+ 1805  du -a . | sort -n -r
+ 1806  du -a -h . | sort -n -r
+ 1807  exit
+ 1808  du -a . | sort -n -r
+ 1809  du -a . | sort -n -r | more
+ 1810  exit
+ 1811  pitunnel --port=22
+ 1812  ncdu
+ 1813  ncdu /
+ 1814  cat /var/log/daemon.log.1 | more
+ 1815  cat /var/log/daemon.log.1 | tail -n 100
+ 1816  cd /var/log
+ 1817  ls -la
+ 1818  tail -n /var/log/syslog
+ 1819  tail -n 100 /var/log/syslog
+ 1820  logrotate -v /etc/logrotate.con
+ 1821  logrotate -v /etc/logrotate.conf
+ 1822  sudo logrotate -v /etc/logrotate.conf
+ 1823  nano /etc/logrotate.conf
+ 1824  cd /etc/logrotate.d
+ 1825  ls
+ 1826  cat syslog
+ 1827  ls -la
+ 1828  cat rsyslog 
+ 1829  nano /etc/logrotate.conf
+ 1830  sudo nano /etc/logrotate.conf
+ 1831  sudo logrotate -v /etc/logrotate.conf
+ 1832  sudo nano /etc/logrotate.conf
+ 1833  sudo logrotate -v /etc/logrotate.conf
+ 1834  cd /var/log
+ 1835  ls
+ 1836  ls -la
+ 1837  sudo logrotate -v /etc/logrotate.conf
+ 1838  sudo logrotate -v -f /etc/logrotate.conf
+ 1839  sudo nano /etc/logrotate.conf
+ 1840  sudo nano /etc/logrotate.d/rsyslog 
+ 1841  sudo nano /etc/logrotate.conf
+ 1842  sudo nano /etc/logrotate.d/rsyslog 
+ 1843  ls -la
+ 1844  sudo nano /etc/logrotate.d/rsyslog 
+ 1845  sudo logrotate -v -f /etc/logrotate.conf
+ 1846  ls -la
+ 1847  tail -n 100 daemon.log
+ 1848  sudo nano /etc/logrotate.d/rsyslog 
+ 1849  sudo logrotate -v -f /etc/logrotate.conf
+ 1850  ls -la
+ 1851  rm syslog.7 syslog.7.gz syslog.6.gz syslog.5.gz 
+ 1852  sudo rm syslog.7 syslog.7.gz syslog.6.gz syslog.5.gz 
+ 1853  ls -la
+ 1854  sudo logrotate -v -f /etc/logrotate.conf
+ 1855  ls -la
+ 1856  sudo ncdu /
+ 1857  exit
+ 1858  journalctl -f -u tail-tracker
+ 1859  cd luis/lora_gateway-master/util_pkt_logger/
+ 1860  ls
+ 1861  wc -l *.csv
+ 1862  journalctl -f -u tail-tracker
+ 1863  cd luis/lora_gateway-master/util_pkt_logger/
+ 1864  ls
+ 1865  wc -l pktlog_B827EBFFFEE895BE_20240710T165400Z.csv 
+ 1866  journalctl -f -u tail-tracker
+ 1867  cd ~
+ 1868  journalctl -f -u tail-tracker
+ 1869  exit
+ 1870  journalctl -f -u tail-tracker
+ 1871  exit
+ 1872  ls
+ 1873  sudo ncdu /
+ 1874  cd luis
+ 1875  ls
+ 1876  cd lora_gateway-master/
+ 1877  ls
+ 1878  cd util_pkt_logger/
+ 1879  sudo ncdu ~
+ 1880  ls -thal
+ 1881  ls -thal --time=birth
+ 1882  ls -thal --time=ctime
+ 1883  ls --help | grep --time
+ 1884  ls --help | grep "--time"
+ 1885  ls --help | grep --time
+ 1886  ls --help
+ 1887  ls -thal --time=ctime
+ 1888  history | grep journalctl
+ 1889  journalctl -f -u tail-tracker
+ 1890  systemctl status tail-tracker
+ 1891  nano /etc/systemd/system/tail-tracker.service 
+ 1892  sudo nano /etc/systemd/system/tail-tracker.service 
+ 1893  journalctl -f -u tail-tracker
+ 1894  journalctl -u tail-tracker
+ 1895  systemctl status systemd-journald*
+ 1896  sudo nano /etc/systemd/journald.conf
+ 1897  journalctl --disk-usage
+ 1898  journalctl --rotate
+ 1899  sudo journalctl --rotate
+ 1900  sudo systemctl restart systemd-journald
+ 1901  journalctl --disk-usage
+ 1902  journalctl -u tail-tracker
+ 1903  journalctl -f -u tail-tracker
+ 1904  sudo systemctl restart tail-tracker
+ 1905  journalctl -f -u tail-tracker
+ 1906  htop
+ 1907  ls
+ 1908  cd luis
+ 1909  ls
+ 1910  cd lora_gateway-master/
+ 1911  ls
+ 1912  cat util_pkt_logger/
+ 1913  cd util_pkt_logger/
+ 1914  ls
+ 1915  cat readme.md
+ 1916  ls
+ 1917  htop
+ 1918  ls
+ 1919  cd luis
+ 1920  ls
+ 1921  cd lora_gateway-master/
+ 1922  ls
+ 1923  cd util_pkt_logger/
+ 1924  l
+ 1925  ls
+ 1926  nano util_pkt_logger 
+ 1927  nano tail_tracker.py 
+ 1928  cd ..
+ 1929  ls
+ 1930  cd ..
+ 1931  ls]
+ 1932  ls
+ 1933  cd lora_gateway-master/
+ 1934  ls
+ 1935  cd ..
+ 1936  cd a
+ 1937  cd aakash/
+ 1938  ls
+ 1939  cd lora_gateway-master/
+ 1940  ls
+ 1941  cd util_pkt_logger/
+ 1942  ls
+ 1943  nano util_pkt_logger 
+ 1944  journalctl -f -u tail-tracker
+ 1945  exit
+ 1946  ls
+ 1947  htop
+ 1948  cd luis
+ 1949  ls
+ 1950  cd lora_gateway-master/
+ 1951  ls
+ 1952  nano util_pkt_logger/
+ 1953  cd util_pkt_logger/
+ 1954  ls
+ 1955  nano tail_tracker.py 
+ 1956  ifconfig
+ 1957  curl canihazip.com
+ 1958  canihazip.com
+ 1959  ls
+ 1960  cd aakash/
+ 1961  ls
+ 1962  cd lora_gateway-master/
+ 1963  ls
+ 1964  journalctl -f -u tail-tracker
+ 1965  htop
+ 1966  sudo systemctl restart tail-tracker
+ 1967  journalctl -f -u tail-tracker
+ 1968  ls
+ 1969  cd aakash
+ 1970  ls
+ 1971  cd lora_gateway-master/
+ 1972  ls
+ 1973  cd util_pkt_logger/
+ 1974  ls
+ 1975  nano readme.md 
+ 1976  ls
+ 1977  cd one
+ 1978  nano pktlog_B827EBFFFEE895BE_20240225T102907Z.csv 
+ 1979  ls
+ 1980  cd
+ 1981  ls
+ 1982  cd luis/
+ 1983  ;s
+ 1984  ls
+ 1985  cd lora_gateway-master/
+ 1986  ls
+ 1987  cd util_pkt_logger/
+ 1988  ls
+ 1989  cd oldLog/
+ 1990  ;s
+ 1991  ls
+ 1992  exit
+ 1993  cd
+ 1994  exit
+ 1995  logout
+ 1996  ls
+ 1997  cd luis/
+ 1998  ls
+ 1999  cd lora_gateway-master/
+ 2000  ls
+ 2001  CD UT
+ 2002  cd util_
+ 2003  cd util_pkt_logger/
+ 2004  ;s
+ 2005  la
+ 2006  ls
+ 2007  cd //
+ 2008  cd ..
+ 2009  ;s
+ 2010  ls
+ 2011  cd /home
+ 2012  ls
+ 2013  cd lora_gateway-master/
+ 2014  ls
+ 2015  cd util_
+ 2016  cd util_pkt_logger/
+ 2017  ;s
+ 2018  ls
+ 2019  cd ..
+ 2020  ls
+ 2021  cd libloragw/
+ 2022  ls
+ 2023  cd ..
+ 2024  ;s
+ 2025  ls
+ 2026  cd util_pkt_logger/
+ 2027  ;s
+ 2028  ls
+ 2029  cd ..
+ 2030  ;s
+ 2031  ls
+ 2032  cd
+ 2033  ls
+ 2034  cd luis/
+ 2035  ls
+ 2036  cd lora_gateway-master/
+ 2037  ls
+ 2038  cd util_
+ 2039  history
+ 2040  history --start 1700 --end 1900
+ 2041  history ~ grep -A 1800 -w 100
+ 2042  history >> h1
