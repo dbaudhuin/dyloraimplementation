@@ -642,6 +642,11 @@ int main(int argc, char **argv)
 
             printf(" - DYLORA INITIALIZATION - DyLoRa has begun.\n");
 
+            if (p == NULL || p->payload == NULL || p->size < 4) {
+                printf(" - DYLORA ERROR - Invalid packet or insufficient payload length\n");
+                continue;
+            }
+
             // Packet verification (should we even look at this packet?)
             if ((p->size > 0) && ((p->payload[0] == 0xAA))) { // If we somehow receive a command packet, skip it entirely, also skip if the packet isnt destined for us by the node
                 printf(" - DYLORA INFO - Skipping command packet in DyLoRa processing.\n");
@@ -721,7 +726,7 @@ int main(int argc, char **argv)
             if (!node_found) {
                 strcpy(history[node_count].node_id, node_id);
                 history[node_count].snr_values[0] = p->snr;   // Store first SNR at index 0
-                history[node_count].current_sf = SFs[pktsf];  // store first SF (MODIFIED TO BE SIMILAR TO BREAKPACK) TODO: CONFIRM THIS OUTPUTS CORRECTLY
+                history[node_count].current_sf = pktsf+7;
                 history[node_count].current_tp = TXPowers[tp];// store first TP (MODIFIED TO BE SIMILAR TO BREAKPACK) TODO: CONFIRM THIS OUTPUTS CORRECTLY
                 history[node_count].index = 1;                // Next position to write is 1
                 history[node_count].snr_total = 1;            // We've stored 1 value
@@ -729,7 +734,7 @@ int main(int argc, char **argv)
                 node_idx = node_count;
                 node_count++;                                 // Added one node to history
                 
-                printf(" - DYLORA NODE ADDED - New Node %s added to history with initial SNR %f. TEST, DO THESE LOOK RIGHT?: current_sf: %s, current_tp: %d\n", node_id, p->snr, history[node_idx].current_sf, history[node_idx].current_tp); // TODO: REMOVE THESE ONCE TEST IS COMFIRMED
+                printf(" - DYLORA NODE ADDED - New Node %s added to history with initial SNR %f. TEST, DO THESE LOOK RIGHT?: current_sf: %d, current_tp: %d\n", node_id, p->snr, history[node_idx].current_sf, history[node_idx].current_tp); // TODO: REMOVE THESE ONCE TEST IS COMFIRMED
             } else {
                 // Update existing node's SNR history
                 printf(" - DYLORA NODE FOUND - Node %s found in history.\n", node_id);
@@ -750,10 +755,10 @@ int main(int argc, char **argv)
                 }
             }
             printf(" - GATEWAY EXPECTED INFO - Stored SF: %d TP:  %d. Sequence Number: %d.\n", history[node_idx].current_sf, history[node_idx].current_tp, history[node_idx].current_seq + 1);
-            if(history[node_idx].current_sf == SFs[pktsf] && history[node_idx].current_tp == TXPowers[tp]){
+            if((history[node_idx].current_sf == pktsf + 7) && (history[node_idx].current_tp == TXPowers[tp])){
                 printf(" - DYLORA MATCH - Node %s matches expected SF and TP.\n", node_id);
             } else {
-                printf(" - DYLORA MISMATCH - Node %s does not match expected SF and TP. Expected SF: %s, Expected TP: %d\n", node_id, history[node_idx].current_sf, history[node_idx].current_tp);
+                printf(" - DYLORA MISMATCH - Node %s does not match expected SF and TP. Expected SF: %d, Expected TP: %d\n", node_id, history[node_idx].current_sf, history[node_idx].current_tp);
             }
 
             // Calculate average SNR (always do this after storing the new value for completeness)
@@ -769,28 +774,43 @@ int main(int argc, char **argv)
 
             printf(" - DYLORA AVERAGE CALCULATION - Node %s average SNR: %f over %d samples\n", node_id, avg_snr, count);
 
-            // Run DyLoRa algorithm once buffer is full on every packet after that
-            if (history[node_idx].snr_total >= WINDOW_SIZE) {
-                Config res = dylora_algorithm(avg_snr, p->bandwidth, p->coderate, p->size);
+            // get sf from packet payload for update packet sending:
+            int node_sf = -1;
+            switch(pktsf){
+                case 0: node_sf = DR_LORA_SF7; break;
+                case 1: node_sf = DR_LORA_SF8; break;
+                case 2: node_sf = DR_LORA_SF9; break;
+                case 3: node_sf = DR_LORA_SF10; break;
+                case 4: node_sf = DR_LORA_SF11; break;
+                case 5: node_sf = DR_LORA_SF12; break;
+            }
 
-                // Update what we expect the node to be using
-                history[node_idx].current_sf = res.sf;
-                history[node_idx].current_tp = res.tp;
+            Config res;
+            res.sf = -1;
+            res.tp = -1;
+            // Run DyLoRa algorithm once buffer is full on every packet after that
+            printf(" - DYLORA CALCULATION - Node %s has %d samples in buffer\n", node_id, history[node_idx].snr_total);
+            if (history[node_idx].snr_total >= WINDOW_SIZE) {
+                res = dylora_algorithm(avg_snr, p->bandwidth, p->coderate, p->size);
+
+                // // Update what we expect the node to be using
+                // history[node_idx].current_sf = res.sf;
+                // history[node_idx].current_tp = res.tp;
                 
                 printf(" - DYLORA UPDATE - Sending update to Node %s: SF=%d, TP=%d, SNR=%f\n", node_id, res.sf, res.tp, avg_snr);
 
-                // Send update packet to node
-                send_update_packet(node_id, res.sf, res.tp, seq_number);
-                
-                // Print the buffer contents for debugging
-                // printf("5.6: DYLORA UPDATE - SNR Buffer used for Node %s's update: [", node_id);
-                // for (int j = 0; j < WINDOW_SIZE; j++) {
-                //     printf("%.2f", history[node_idx].snr_values[j]);
-                //     if (j < WINDOW_SIZE - 1) printf(", ");
-                // }
-                // printf("]\n");
+                // Send update packet to node (using what we know the node is already using)
+                send_update_packet(node_id, res.sf, res.tp, seq_number, node_sf);
             } else {
-                send_update_packet(node_id, -1, -1, seq_number);
+                send_update_packet(node_id, -1, -1, seq_number, node_sf);
+            }
+
+            // Update what we expect the node to be using
+            if (node_idx >= 0) {
+                history[node_idx].current_sf = res.sf;
+                history[node_idx].current_tp = res.tp;
+            } else {
+                printf(" - DYLORA ERROR - Invalid node index: %d. Cannot write results.\n", node_idx);
             }
             char buffer[512];
             int pos = 0;

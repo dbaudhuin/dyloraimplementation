@@ -39,7 +39,7 @@ typedef struct {
 } Config;
 
 // This function builds and sends an update packet that tells the node to update its SF and TP.
-void send_update_packet(const char* node_id, int new_sf, int new_tp, int seq) {
+void send_update_packet(const char* node_id, int new_sf, int new_tp, int seq, int node_sf) {
     struct lgw_pkt_tx_s update_pkt;
     memset(&update_pkt, 0, sizeof(update_pkt));
 
@@ -59,7 +59,11 @@ void send_update_packet(const char* node_id, int new_sf, int new_tp, int seq) {
     update_pkt.modulation = MOD_LORA;
     update_pkt.bandwidth = BW_125KHZ; // choose the proper bandwidth
     // Set SF to the new spreading factor (converted to the proper datarate value)
-    update_pkt.datarate = DR_LORA_SF12;
+    if (node_sf ==-1){
+        printf(" - DYLORA UPDATE - Node %s has an invalid SF setting being brought into sending a packet.\n", node_id);
+        return;
+    }
+    update_pkt.datarate = node_sf;
 
     // Coding rate doesn’t change for an update command; use a default valid value.
     update_pkt.coderate = CR_LORA_4_5;
